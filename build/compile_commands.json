@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/cnn_lib.dir/circuit.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/circuit.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/circuit.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/cnn_lib.dir/models.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/models.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/models.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/neuralNetwork.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/neuralNetwork.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/cnn_lib.dir/polynomial.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/polynomial.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/polynomial.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/cnn_lib.dir/prover.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/prover.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/prover.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/cnn_lib.dir/utils.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/utils.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/utils.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/cnn_lib.dir/verifier.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/verifier.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/verifier.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/demo_vgg_run.dir/main_demo_vgg.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/main_demo_vgg.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/main_demo_vgg.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/src",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -g -o CMakeFiles/demo_lenet_run.dir/main_demo_lenet.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/main_demo_lenet.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/src/main_demo_lenet.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -g -o CMakeFiles/hyrax_lib.dir/polyProver.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyProver.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyProver.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -g -o CMakeFiles/hyrax_lib.dir/polyVerifier.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyVerifier.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyVerifier.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -g -o CMakeFiles/hyrax_lib.dir/timer.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/timer.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/timer.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/src",
+  "command": "/usr/bin/g++  -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -g -o CMakeFiles/hyrax_lib.dir/utils.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/utils.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/utils.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/src",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -g -o CMakeFiles/hyrax_time.dir/main.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/main.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/main.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -Dmcl_EXPORTS -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -std=c++11 -o CMakeFiles/mcl.dir/src/fp.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/fp.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/fp.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/gcc -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -Dmcl_EXPORTS -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -isystem /usr/include -isystem /usr/include/x86_64-linux-gnu -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -o CMakeFiles/mcl.dir/src/asm/x86-64.s.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.s",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.s"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/gcc -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -Dmcl_EXPORTS -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -isystem /usr/include -isystem /usr/include/x86_64-linux-gnu -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -o CMakeFiles/mcl.dir/src/asm/x86-64.bmi2.s.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.bmi2.s",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.bmi2.s"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -Dmclbn384_256_EXPORTS -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -std=c++11 -o CMakeFiles/mclbn384_256.dir/src/bn_c384_256.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c384_256.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c384_256.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -std=c++11 -o CMakeFiles/mcl_st.dir/src/fp.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/fp.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/fp.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/gcc -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -isystem /usr/include -isystem /usr/include/x86_64-linux-gnu -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -o CMakeFiles/mcl_st.dir/src/asm/x86-64.s.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.s",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.s"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/gcc -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -isystem /usr/include -isystem /usr/include/x86_64-linux-gnu -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -o CMakeFiles/mcl_st.dir/src/asm/x86-64.bmi2.s.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.bmi2.s",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.bmi2.s"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -Dmclbn256_EXPORTS -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -std=c++11 -o CMakeFiles/mclbn256.dir/src/bn_c256.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c256.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c256.cpp"
+},
+{
+  "directory": "/home/grads/r/realjw/ZKP/zkCNN/build/3rd/hyrax-bls12-381/3rd/mcl",
+  "command": "/usr/bin/g++ -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL_USE_LLVM=1 -Dmclbn384_EXPORTS -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.. -O3 -DNDEBUG -fPIC -Wall -Wextra -Wformat=2 -Wcast-qual -Wcast-align -Wwrite-strings -Wfloat-equal -Wpointer-arith -DNDEBUG -O3 -fPIC -std=c++11 -o CMakeFiles/mclbn384.dir/src/bn_c384.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c384.cpp",
+  "file": "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c384.cpp"
+}
+]

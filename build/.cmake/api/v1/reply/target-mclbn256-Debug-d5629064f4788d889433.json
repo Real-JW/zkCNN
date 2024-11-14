@@ -1,0 +1,315 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libmclbn256.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"link_directories",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"3rd/hyrax-bls12-381/3rd/mcl/CMakeLists.txt",
+			"CMakeLists.txt",
+			"3rd/hyrax-bls12-381/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 331,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 354,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 338,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 7,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-DNDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-O3"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "MCLBN_NO_AUTOLINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MCL_DONT_USE_OPENSSL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "MCL_NO_AUTOLINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "MCL_USE_LLVM=1"
+				},
+				{
+					"define" : "mclbn256_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/grads/r/realjw/ZKP/zkCNN/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/grads/r/realjw/ZKP/zkCNN/3rd"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					14
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "mcl::@61bda7ea8953fdf9dada"
+		}
+	],
+	"id" : "mclbn256::@61bda7ea8953fdf9dada",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-L/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381:/home/grads/r/realjw/ZKP/zkCNN/build/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../lib/libmcl.so.1.22",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmpxx.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgmp.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mclbn256",
+	"nameOnDisk" : "libmclbn256.so",
+	"paths" : 
+	{
+		"build" : "3rd/hyrax-bls12-381/3rd/mcl",
+		"source" : "3rd/hyrax-bls12-381/3rd/mcl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "3rd/hyrax-bls12-381/3rd/mcl/src/bn_c256.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

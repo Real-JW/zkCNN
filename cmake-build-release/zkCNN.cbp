@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zkCNN"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rd\;CMake Files\3rd\hyrax-bls12-381\;CMake Files\3rd\hyrax-bls12-381\src\;CMake Files\3rd\hyrax-bls12-381\3rd\;CMake Files\3rd\hyrax-bls12-381\3rd\mcl\;CMake Files\3rd\hyrax-bls12-381\3rd\mcl\cmake\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cnn_lib">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/libcnn_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 cnn_lib"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cnn_lib/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/libcnn_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 cnn_lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_vgg_run">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/demo_vgg_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 demo_vgg_run"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_vgg_run/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/demo_vgg_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 demo_vgg_run/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_lenet_run">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/demo_lenet_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 demo_lenet_run"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo_lenet_run/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/demo_lenet_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 demo_lenet_run/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hyrax_lib">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/libhyrax_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 hyrax_lib"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hyrax_lib/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/libhyrax_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 hyrax_lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hyrax_time">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/hyrax_time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 hyrax_time"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hyrax_time/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/hyrax_time" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 hyrax_time/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcl">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmcl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mcl"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcl/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmcl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mcl/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcl_st">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmcl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mcl_st"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mcl_st/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmcl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mcl_st/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mclbn256">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmclbn256.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mclbn256"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mclbn256/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmclbn256.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mclbn256/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mclbn384">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmclbn384.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mclbn384"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mclbn384/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmclbn384.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mclbn384/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mclbn384_256">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmclbn384_256.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mclbn384_256"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mclbn384_256/fast">
+				<Option output="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/lib/libmclbn384_256.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMCL_NO_AUTOLINK"/>
+					<Add option="-DMCLBN_NO_AUTOLINK"/>
+					<Add option="-DMCL_USE_LLVM=1"/>
+					<Add option="-DMCL_DONT_USE_OPENSSL"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src"/>
+					<Add directory="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 mclbn384_256/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/3rd/hyrax-bls12-381/3rd/mcl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.bmi2.s">
+			<Option target="mcl"/>
+			<Option target="mcl_st"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/asm/x86-64.s">
+			<Option target="mcl"/>
+			<Option target="mcl_st"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c256.cpp">
+			<Option target="mclbn256"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c384.cpp">
+			<Option target="mclbn384"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/bn_c384_256.cpp">
+			<Option target="mclbn384_256"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/src/fp.cpp">
+			<Option target="mcl"/>
+			<Option target="mcl_st"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/main.cpp">
+			<Option target="hyrax_time"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyProver.cpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyProver.hpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyVerifier.cpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyVerifier.hpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/timer.cpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/timer.hpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/utils.cpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/utils.hpp">
+			<Option target="hyrax_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/circuit.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/circuit.h">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/main_demo_lenet.cpp">
+			<Option target="demo_lenet_run"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/main_demo_lenet.h">
+			<Option target="demo_lenet_run"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/main_demo_vgg.cpp">
+			<Option target="demo_vgg_run"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/models.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/models.hpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/neuralNetwork.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/neuralNetwork.hpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/polynomial.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/polynomial.h">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/prover.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/prover.hpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/utils.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/utils.hpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/verifier.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/verifier.hpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\hyrax-bls12-381\"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\hyrax-bls12-381\src\"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rd\hyrax-bls12-381\3rd\mcl\"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/cmake/FindGMP.cmake">
+			<Option virtualFolder="CMake Files\3rd\hyrax-bls12-381\3rd\mcl\cmake\"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

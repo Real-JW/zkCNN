@@ -1,0 +1,236 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "3rd/hyrax-bls12-381",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rd.hyrax-bls12-381-Debug-e24678145c4aa54a6410.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "3rd/hyrax-bls12-381"
+				},
+				{
+					"build" : "3rd/hyrax-bls12-381/src",
+					"jsonFile" : "directory-3rd.hyrax-bls12-381.src-Debug-8760af17de1f83e1237f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "3rd/hyrax-bls12-381/src",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "3rd/hyrax-bls12-381/3rd/mcl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-3rd.hyrax-bls12-381.3rd.mcl-Debug-7dd58b67e37c255e9771.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "3rd/hyrax-bls12-381/3rd/mcl",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "zkCNN",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "hyrax_bls12_381",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "mcl",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "cnn_lib::@145eef247bfb46b6828c",
+					"jsonFile" : "target-cnn_lib-Debug-0700c4affd4f8024fc07.json",
+					"name" : "cnn_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "demo_lenet_run::@145eef247bfb46b6828c",
+					"jsonFile" : "target-demo_lenet_run-Debug-852b654174f2c8e08dad.json",
+					"name" : "demo_lenet_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "demo_vgg_run::@145eef247bfb46b6828c",
+					"jsonFile" : "target-demo_vgg_run-Debug-ce5f2f40cb93c09c70c8.json",
+					"name" : "demo_vgg_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "hyrax_lib::@3ac75b46149706f43b4b",
+					"jsonFile" : "target-hyrax_lib-Debug-b61945e87032fc753fab.json",
+					"name" : "hyrax_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "hyrax_time::@3ac75b46149706f43b4b",
+					"jsonFile" : "target-hyrax_time-Debug-aef83b4b86f7084774df.json",
+					"name" : "hyrax_time",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mcl::@61bda7ea8953fdf9dada",
+					"jsonFile" : "target-mcl-Debug-7c19ee97431dffdd9583.json",
+					"name" : "mcl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mcl_st::@61bda7ea8953fdf9dada",
+					"jsonFile" : "target-mcl_st-Debug-e7fd5571177896bec92b.json",
+					"name" : "mcl_st",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mclbn256::@61bda7ea8953fdf9dada",
+					"jsonFile" : "target-mclbn256-Debug-d5629064f4788d889433.json",
+					"name" : "mclbn256",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mclbn384::@61bda7ea8953fdf9dada",
+					"jsonFile" : "target-mclbn384-Debug-0dd11fba8ab841df6715.json",
+					"name" : "mclbn384",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "mclbn384_256::@61bda7ea8953fdf9dada",
+					"jsonFile" : "target-mclbn384_256-Debug-06aa7b69fdb3cd1843c3.json",
+					"name" : "mclbn384_256",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/grads/r/realjw/ZKP/zkCNN/build",
+		"source" : "/home/grads/r/realjw/ZKP/zkCNN"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
