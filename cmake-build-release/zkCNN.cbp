@@ -724,6 +724,12 @@
 		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/circuit.h">
 			<Option target="cnn_lib"/>
 		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/communication.cpp">
+			<Option target="cnn_lib"/>
+		</Unit>
+		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/communication.hpp">
+			<Option target="cnn_lib"/>
+		</Unit>
 		<Unit filename="/home/grads/r/realjw/ZKP/zkCNN/src/main_demo_lenet.cpp">
 			<Option target="demo_lenet_run"/>
 		</Unit>

@@ -227,6 +227,30 @@ circuit.cpp.s:
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cnn_lib.dir/build.make src/CMakeFiles/cnn_lib.dir/circuit.cpp.s
 .PHONY : circuit.cpp.s
 
+communication.o: communication.cpp.o
+.PHONY : communication.o
+
+# target to build an object file
+communication.cpp.o:
+	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cnn_lib.dir/build.make src/CMakeFiles/cnn_lib.dir/communication.cpp.o
+.PHONY : communication.cpp.o
+
+communication.i: communication.cpp.i
+.PHONY : communication.i
+
+# target to preprocess a source file
+communication.cpp.i:
+	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cnn_lib.dir/build.make src/CMakeFiles/cnn_lib.dir/communication.cpp.i
+.PHONY : communication.cpp.i
+
+communication.s: communication.cpp.s
+.PHONY : communication.s
+
+# target to generate assembly for a file
+communication.cpp.s:
+	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/cnn_lib.dir/build.make src/CMakeFiles/cnn_lib.dir/communication.cpp.s
+.PHONY : communication.cpp.s
+
 main_demo_lenet.o: main_demo_lenet.cpp.o
 .PHONY : main_demo_lenet.o
 
@@ -437,6 +461,9 @@ help:
 	@echo "... circuit.o"
 	@echo "... circuit.i"
 	@echo "... circuit.s"
+	@echo "... communication.o"
+	@echo "... communication.i"
+	@echo "... communication.s"
 	@echo "... main_demo_lenet.o"
 	@echo "... main_demo_lenet.i"
 	@echo "... main_demo_lenet.s"

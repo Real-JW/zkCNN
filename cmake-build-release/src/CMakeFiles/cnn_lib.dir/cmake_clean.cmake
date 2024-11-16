@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cnn_lib.dir/circuit.cpp.o"
   "CMakeFiles/cnn_lib.dir/circuit.cpp.o.d"
+  "CMakeFiles/cnn_lib.dir/communication.cpp.o"
+  "CMakeFiles/cnn_lib.dir/communication.cpp.o.d"
   "CMakeFiles/cnn_lib.dir/models.cpp.o"
   "CMakeFiles/cnn_lib.dir/models.cpp.o.d"
   "CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o"

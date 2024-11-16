@@ -4,6 +4,7 @@
 
 #include "verifier.hpp"
 #include "global_var.hpp"
+#include "communication.hpp"
 #include <utils.hpp>
 #include <circuit.h>
 #include <iostream>
@@ -12,7 +13,7 @@ using namespace std;
 vector<F> beta_v;
 static vector<F> beta_u, beta_gs;
 
-verifier::verifier(prover *pr, const layeredCircuit &cir):
+verifier::verifier(prover *pr, const layeredCircuit &cir): // Constructor
     p(pr), C(cir) {
     final_claim_u0.resize(C.size + 2);
     final_claim_v0.resize(C.size + 2);
@@ -146,7 +147,7 @@ bool verifier::verifyInnerLayers() {
     total_timer.stop();
     total_slow_timer.stop();
 
-    auto previousSum = p -> Vres(r_0, C.circuit[C.size - 1].size, C.circuit[C.size - 1].bit_length);
+    Fr previousSum = p -> Vres(r_0, C.circuit[C.size - 1].size, C.circuit[C.size - 1].bit_length);
     fprintf(stderr, "previousSum = p -> Vres(r_0, C.circuit[C.size - 1].size, C.circuit[C.size - 1].bit_length);\n");
     p -> sumcheckInitAll(r_0);
     fprintf(stderr, "p -> sumcheckInitAll(r_0);\n");
@@ -180,14 +181,16 @@ bool verifier::verifyInnerLayers() {
         for (i8 j = 0; j < cur.max_bl_u; ++j) {
             F cur_claim, nxt_claim;
             if (cur.ty == layerType::DOT_PROD) {
-                cubic_poly poly = p -> sumcheckDotProdUpdate1(previousRandom);
+                // cubic_poly poly = p -> sumcheckDotProdUpdate1(previousRandom);
+                cubic_poly poly = comSumcheckDotProdUpdate1(p, previousRandom);
                 fprintf(stderr, "poly = p -> sumcheckDotProdUpdate1(previousRandom);\n");
                 total_timer.start();
                 total_slow_timer.start();
                 cur_claim = poly.eval(F_ZERO) + poly.eval(F_ONE);
                 nxt_claim = poly.eval(r_u[i][j]);
             } else {
-                quadratic_poly poly = p -> sumcheckUpdate1(previousRandom);
+                // quadratic_poly poly = p -> sumcheckUpdate1(previousRandom);
+                quadratic_poly poly = comSumcheckUpdate1(p, previousRandom);
                 fprintf(stderr, "poly = p -> sumcheckUpdate1(previousRandom);\n");
                 total_timer.start();
                 total_slow_timer.start();
@@ -231,7 +234,8 @@ bool verifier::verifyInnerLayers() {
             fprintf(stderr, "p -> sumcheckInitPhase2();\n");
             previousRandom = F_ZERO;
             for (u32 j = 0; j < cur.max_bl_v; ++j) {
-                quadratic_poly poly = p -> sumcheckUpdate2(previousRandom);
+                // quadratic_poly poly = p -> sumcheckUpdate2(previousRandom);
+                quadratic_poly poly = comSumcheckUpdate2(p, previousRandom);
                 fprintf(stderr, "poly = p -> sumcheckUpdate2(previousRandom);\n");
 
                 total_timer.start();
@@ -314,7 +318,8 @@ bool verifier::verifyFirstLayer() {
     fprintf(stderr, "p -> sumcheckLiuInit(sig_u, sig_v);\n");
     F previousRandom = F_ZERO;
     for (int j = 0; j < cur.bit_length; ++j) {
-        auto poly = p -> sumcheckLiuUpdate(previousRandom); // Prover update the polynomial
+        // quadratic_poly poly = p -> sumcheckLiuUpdate(previousRandom); 
+        quadratic_poly poly = comSumcheckLiuUpdate(p, previousRandom); 
         fprintf(stderr, "poly = p -> sumcheckLiuUpdate(previousRandom);\n");
         if (poly.eval(F_ZERO) + poly.eval(F_ONE) != previousSum) {
             fprintf(stderr, "Liu fail, circuit 0, current bit %d\n", j);

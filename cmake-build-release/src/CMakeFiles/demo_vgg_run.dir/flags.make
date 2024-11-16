@@ -6,5 +6,5 @@ CXX_DEFINES = -DMCLBN_NO_AUTOLINK -DMCL_DONT_USE_OPENSSL -DMCL_NO_AUTOLINK -DMCL
 
 CXX_INCLUDES = -I/home/grads/r/realjw/ZKP/zkCNN/src -I/home/grads/r/realjw/ZKP/zkCNN/3rd -I/home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/3rd/mcl/include
 
-CXX_FLAGS = -O3 -DNDEBUG
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
 

@@ -16,7 +16,8 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
- /usr/include/assert.h /usr/include/c++/10/cctype /usr/include/ctype.h \
+ /usr/include/c++/10/pstl/pstl_config.h /usr/include/assert.h \
+ /usr/include/c++/10/cctype /usr/include/ctype.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -84,7 +85,33 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/c++/10/csetjmp \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/10/bits/specfun.h \
+ /usr/include/c++/10/bits/stl_algobase.h \
+ /usr/include/c++/10/bits/functexcept.h \
+ /usr/include/c++/10/bits/exception_defines.h \
+ /usr/include/c++/10/ext/numeric_traits.h \
+ /usr/include/c++/10/bits/stl_pair.h /usr/include/c++/10/bits/move.h \
+ /usr/include/c++/10/type_traits \
+ /usr/include/c++/10/bits/stl_iterator_base_types.h \
+ /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/10/bits/concept_check.h \
+ /usr/include/c++/10/debug/assertions.h \
+ /usr/include/c++/10/bits/stl_iterator.h \
+ /usr/include/c++/10/bits/ptr_traits.h /usr/include/c++/10/debug/debug.h \
+ /usr/include/c++/10/bits/predefined_ops.h /usr/include/c++/10/limits \
+ /usr/include/c++/10/tr1/gamma.tcc \
+ /usr/include/c++/10/tr1/special_function_util.h \
+ /usr/include/c++/10/tr1/bessel_function.tcc \
+ /usr/include/c++/10/tr1/beta_function.tcc \
+ /usr/include/c++/10/tr1/ell_integral.tcc \
+ /usr/include/c++/10/tr1/exp_integral.tcc \
+ /usr/include/c++/10/tr1/hypergeometric.tcc \
+ /usr/include/c++/10/tr1/legendre_function.tcc \
+ /usr/include/c++/10/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/10/tr1/poly_hermite.tcc \
+ /usr/include/c++/10/tr1/poly_laguerre.tcc \
+ /usr/include/c++/10/tr1/riemann_zeta.tcc /usr/include/c++/10/csetjmp \
  /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp2.h /usr/include/c++/10/csignal \
@@ -152,24 +179,10 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/c++/10/bits/memoryfwd.h /usr/include/c++/10/bits/postypes.h \
  /usr/include/c++/10/exception /usr/include/c++/10/bits/exception.h \
  /usr/include/c++/10/bits/exception_ptr.h \
- /usr/include/c++/10/bits/exception_defines.h \
  /usr/include/c++/10/bits/cxxabi_init_exception.h \
  /usr/include/c++/10/typeinfo /usr/include/c++/10/bits/hash_bytes.h \
- /usr/include/c++/10/new /usr/include/c++/10/bits/move.h \
- /usr/include/c++/10/type_traits \
- /usr/include/c++/10/bits/nested_exception.h \
- /usr/include/c++/10/bits/char_traits.h \
- /usr/include/c++/10/bits/stl_algobase.h \
- /usr/include/c++/10/bits/functexcept.h \
- /usr/include/c++/10/ext/numeric_traits.h \
- /usr/include/c++/10/bits/stl_pair.h \
- /usr/include/c++/10/bits/stl_iterator_base_types.h \
- /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/10/bits/concept_check.h \
- /usr/include/c++/10/debug/assertions.h \
- /usr/include/c++/10/bits/stl_iterator.h \
- /usr/include/c++/10/bits/ptr_traits.h /usr/include/c++/10/debug/debug.h \
- /usr/include/c++/10/bits/predefined_ops.h /usr/include/c++/10/cstdint \
+ /usr/include/c++/10/new /usr/include/c++/10/bits/nested_exception.h \
+ /usr/include/c++/10/bits/char_traits.h /usr/include/c++/10/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/c++/10/bits/localefwd.h \
@@ -197,10 +210,11 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/c++/10/bits/basic_string.h \
  /usr/include/c++/10/ext/alloc_traits.h \
  /usr/include/c++/10/bits/alloc_traits.h \
- /usr/include/c++/10/bits/stl_construct.h \
+ /usr/include/c++/10/bits/stl_construct.h /usr/include/c++/10/string_view \
+ /usr/include/c++/10/bits/functional_hash.h \
+ /usr/include/c++/10/bits/string_view.tcc \
  /usr/include/c++/10/ext/string_conversions.h \
  /usr/include/c++/10/bits/charconv.h \
- /usr/include/c++/10/bits/functional_hash.h \
  /usr/include/c++/10/bits/basic_string.tcc \
  /usr/include/c++/10/bits/locale_classes.tcc \
  /usr/include/c++/10/system_error \
@@ -230,18 +244,31 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/c++/10/bits/algorithmfwd.h \
  /usr/include/c++/10/bits/stl_heap.h \
  /usr/include/c++/10/bits/stl_tempbuf.h \
- /usr/include/c++/10/bits/uniform_int_dist.h /usr/include/c++/10/limits \
- /usr/include/c++/10/bitset /usr/include/c++/10/deque \
+ /usr/include/c++/10/bits/uniform_int_dist.h \
+ /usr/include/c++/10/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/10/functional /usr/include/c++/10/tuple \
+ /usr/include/c++/10/array /usr/include/c++/10/bits/uses_allocator.h \
+ /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/bits/refwrap.h \
+ /usr/include/c++/10/bits/std_function.h \
+ /usr/include/c++/10/unordered_map \
+ /usr/include/c++/10/ext/aligned_buffer.h \
+ /usr/include/c++/10/bits/hashtable.h \
+ /usr/include/c++/10/bits/hashtable_policy.h \
+ /usr/include/c++/10/bits/enable_special_members.h \
+ /usr/include/c++/10/bits/node_handle.h /usr/include/c++/10/optional \
+ /usr/include/c++/10/bits/unordered_map.h \
+ /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/vector \
  /usr/include/c++/10/bits/stl_uninitialized.h \
- /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
- /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
+ /usr/include/c++/10/bits/stl_vector.h \
+ /usr/include/c++/10/bits/stl_bvector.h \
+ /usr/include/c++/10/bits/vector.tcc \
+ /usr/include/c++/10/pstl/execution_defs.h /usr/include/c++/10/bitset \
+ /usr/include/c++/10/deque /usr/include/c++/10/bits/stl_deque.h \
+ /usr/include/c++/10/bits/deque.tcc /usr/include/c++/10/fstream \
+ /usr/include/c++/10/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/functional \
- /usr/include/c++/10/tuple /usr/include/c++/10/array \
- /usr/include/c++/10/bits/uses_allocator.h \
- /usr/include/c++/10/bits/invoke.h /usr/include/c++/10/bits/refwrap.h \
- /usr/include/c++/10/bits/std_function.h /usr/include/c++/10/iomanip \
+ /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/iomanip \
  /usr/include/c++/10/locale \
  /usr/include/c++/10/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/time_members.h \
@@ -253,11 +280,9 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/c++/10/iterator /usr/include/c++/10/bits/stream_iterator.h \
  /usr/include/c++/10/list /usr/include/c++/10/bits/stl_list.h \
  /usr/include/c++/10/bits/allocated_ptr.h \
- /usr/include/c++/10/ext/aligned_buffer.h \
  /usr/include/c++/10/bits/list.tcc /usr/include/c++/10/map \
  /usr/include/c++/10/bits/stl_tree.h /usr/include/c++/10/bits/stl_map.h \
- /usr/include/c++/10/bits/stl_multimap.h \
- /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/memory \
+ /usr/include/c++/10/bits/stl_multimap.h /usr/include/c++/10/memory \
  /usr/include/c++/10/bits/stl_raw_storage_iter.h \
  /usr/include/c++/10/bits/ranges_uninitialized.h \
  /usr/include/c++/10/ext/concurrence.h \
@@ -266,12 +291,12 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/c++/10/bits/shared_ptr_atomic.h \
  /usr/include/c++/10/bits/atomic_base.h \
  /usr/include/c++/10/bits/atomic_lockfree_defines.h \
- /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/numeric \
- /usr/include/c++/10/bits/stl_numeric.h /usr/include/c++/10/queue \
- /usr/include/c++/10/vector /usr/include/c++/10/bits/stl_vector.h \
- /usr/include/c++/10/bits/stl_bvector.h \
- /usr/include/c++/10/bits/vector.tcc /usr/include/c++/10/bits/stl_queue.h \
- /usr/include/c++/10/set /usr/include/c++/10/bits/stl_set.h \
+ /usr/include/c++/10/backward/auto_ptr.h \
+ /usr/include/c++/10/pstl/glue_memory_defs.h /usr/include/c++/10/numeric \
+ /usr/include/c++/10/bits/stl_numeric.h \
+ /usr/include/c++/10/pstl/glue_numeric_defs.h /usr/include/c++/10/queue \
+ /usr/include/c++/10/bits/stl_queue.h /usr/include/c++/10/set \
+ /usr/include/c++/10/bits/stl_set.h \
  /usr/include/c++/10/bits/stl_multiset.h /usr/include/c++/10/stack \
  /usr/include/c++/10/bits/stl_stack.h /usr/include/c++/10/valarray \
  /usr/include/c++/10/bits/valarray_array.h \
@@ -307,13 +332,14 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/c++/10/bits/regex_executor.h \
  /usr/include/c++/10/bits/regex_executor.tcc \
  /usr/include/c++/10/scoped_allocator /usr/include/c++/10/typeindex \
- /usr/include/c++/10/unordered_map /usr/include/c++/10/bits/hashtable.h \
- /usr/include/c++/10/bits/hashtable_policy.h \
- /usr/include/c++/10/bits/enable_special_members.h \
- /usr/include/c++/10/bits/unordered_map.h \
  /usr/include/c++/10/unordered_set \
  /usr/include/c++/10/bits/unordered_set.h \
- /usr/include/c++/10/shared_mutex \
+ /usr/include/c++/10/shared_mutex /usr/include/c++/10/any \
+ /usr/include/c++/10/charconv /usr/include/c++/10/bit \
+ /usr/include/c++/10/filesystem /usr/include/c++/10/bits/fs_fwd.h \
+ /usr/include/c++/10/bits/fs_path.h /usr/include/c++/10/bits/fs_dir.h \
+ /usr/include/c++/10/bits/fs_ops.h /usr/include/c++/10/memory_resource \
+ /usr/include/c++/10/variant \
  /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/polyCommit.hpp \
  /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/typedef.hpp \
  /home/grads/r/realjw/ZKP/zkCNN/3rd/hyrax-bls12-381/src/polyProver.hpp \
@@ -475,4 +501,5 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: \
  /usr/include/nlohmann/detail/macro_unscope.hpp \
  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
  /home/grads/r/realjw/ZKP/zkCNN/src/polynomial.h \
+ /home/grads/r/realjw/ZKP/zkCNN/src/communication.hpp \
  /home/grads/r/realjw/ZKP/zkCNN/src/utils.hpp

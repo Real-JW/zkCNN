@@ -7,6 +7,7 @@
 #include "verifier.hpp"
 #include "models.hpp"
 #include "global_var.hpp"
+#include "communication.hpp"
 
 // the arguments' format
 #define INPUT_FILE_ID 1     // the input filename
@@ -33,7 +34,8 @@ int main(int argc, char **argv) {
     prover p;  
     lenet nn(32, 32, 1, pic_cnt, MAX, i_filename, c_filename, o_filename);
     nn.create(p, false);
-    verifier v(&p, p.C);    // &p gets the memory address, p.C layeredCircuit C;
+    layeredCircuit C = comLayeredCircuit(p.C);
+    verifier v(&p, C);
     v.verify();
 
     for (auto &s: output_tb) printf("%s, ", s.c_str());

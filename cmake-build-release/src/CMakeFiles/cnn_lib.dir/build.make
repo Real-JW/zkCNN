@@ -83,10 +83,24 @@ src/CMakeFiles/cnn_lib.dir/circuit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cnn_lib.dir/circuit.cpp.s"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grads/r/realjw/ZKP/zkCNN/src/circuit.cpp -o CMakeFiles/cnn_lib.dir/circuit.cpp.s
 
+src/CMakeFiles/cnn_lib.dir/communication.cpp.o: src/CMakeFiles/cnn_lib.dir/flags.make
+src/CMakeFiles/cnn_lib.dir/communication.cpp.o: ../src/communication.cpp
+src/CMakeFiles/cnn_lib.dir/communication.cpp.o: src/CMakeFiles/cnn_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/cnn_lib.dir/communication.cpp.o"
+	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/cnn_lib.dir/communication.cpp.o -MF CMakeFiles/cnn_lib.dir/communication.cpp.o.d -o CMakeFiles/cnn_lib.dir/communication.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/communication.cpp
+
+src/CMakeFiles/cnn_lib.dir/communication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cnn_lib.dir/communication.cpp.i"
+	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grads/r/realjw/ZKP/zkCNN/src/communication.cpp > CMakeFiles/cnn_lib.dir/communication.cpp.i
+
+src/CMakeFiles/cnn_lib.dir/communication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cnn_lib.dir/communication.cpp.s"
+	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grads/r/realjw/ZKP/zkCNN/src/communication.cpp -o CMakeFiles/cnn_lib.dir/communication.cpp.s
+
 src/CMakeFiles/cnn_lib.dir/models.cpp.o: src/CMakeFiles/cnn_lib.dir/flags.make
 src/CMakeFiles/cnn_lib.dir/models.cpp.o: ../src/models.cpp
 src/CMakeFiles/cnn_lib.dir/models.cpp.o: src/CMakeFiles/cnn_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/cnn_lib.dir/models.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/cnn_lib.dir/models.cpp.o"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/cnn_lib.dir/models.cpp.o -MF CMakeFiles/cnn_lib.dir/models.cpp.o.d -o CMakeFiles/cnn_lib.dir/models.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/models.cpp
 
 src/CMakeFiles/cnn_lib.dir/models.cpp.i: cmake_force
@@ -100,7 +114,7 @@ src/CMakeFiles/cnn_lib.dir/models.cpp.s: cmake_force
 src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o: src/CMakeFiles/cnn_lib.dir/flags.make
 src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o: ../src/neuralNetwork.cpp
 src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o: src/CMakeFiles/cnn_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o -MF CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o.d -o CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/neuralNetwork.cpp
 
 src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.i: cmake_force
@@ -114,7 +128,7 @@ src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.s: cmake_force
 src/CMakeFiles/cnn_lib.dir/polynomial.cpp.o: src/CMakeFiles/cnn_lib.dir/flags.make
 src/CMakeFiles/cnn_lib.dir/polynomial.cpp.o: ../src/polynomial.cpp
 src/CMakeFiles/cnn_lib.dir/polynomial.cpp.o: src/CMakeFiles/cnn_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/cnn_lib.dir/polynomial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/cnn_lib.dir/polynomial.cpp.o"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/cnn_lib.dir/polynomial.cpp.o -MF CMakeFiles/cnn_lib.dir/polynomial.cpp.o.d -o CMakeFiles/cnn_lib.dir/polynomial.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/polynomial.cpp
 
 src/CMakeFiles/cnn_lib.dir/polynomial.cpp.i: cmake_force
@@ -128,7 +142,7 @@ src/CMakeFiles/cnn_lib.dir/polynomial.cpp.s: cmake_force
 src/CMakeFiles/cnn_lib.dir/prover.cpp.o: src/CMakeFiles/cnn_lib.dir/flags.make
 src/CMakeFiles/cnn_lib.dir/prover.cpp.o: ../src/prover.cpp
 src/CMakeFiles/cnn_lib.dir/prover.cpp.o: src/CMakeFiles/cnn_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/cnn_lib.dir/prover.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/cnn_lib.dir/prover.cpp.o"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/cnn_lib.dir/prover.cpp.o -MF CMakeFiles/cnn_lib.dir/prover.cpp.o.d -o CMakeFiles/cnn_lib.dir/prover.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/prover.cpp
 
 src/CMakeFiles/cnn_lib.dir/prover.cpp.i: cmake_force
@@ -142,7 +156,7 @@ src/CMakeFiles/cnn_lib.dir/prover.cpp.s: cmake_force
 src/CMakeFiles/cnn_lib.dir/utils.cpp.o: src/CMakeFiles/cnn_lib.dir/flags.make
 src/CMakeFiles/cnn_lib.dir/utils.cpp.o: ../src/utils.cpp
 src/CMakeFiles/cnn_lib.dir/utils.cpp.o: src/CMakeFiles/cnn_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/cnn_lib.dir/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/cnn_lib.dir/utils.cpp.o"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/cnn_lib.dir/utils.cpp.o -MF CMakeFiles/cnn_lib.dir/utils.cpp.o.d -o CMakeFiles/cnn_lib.dir/utils.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/utils.cpp
 
 src/CMakeFiles/cnn_lib.dir/utils.cpp.i: cmake_force
@@ -156,7 +170,7 @@ src/CMakeFiles/cnn_lib.dir/utils.cpp.s: cmake_force
 src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: src/CMakeFiles/cnn_lib.dir/flags.make
 src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: ../src/verifier.cpp
 src/CMakeFiles/cnn_lib.dir/verifier.cpp.o: src/CMakeFiles/cnn_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/cnn_lib.dir/verifier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/cnn_lib.dir/verifier.cpp.o"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/cnn_lib.dir/verifier.cpp.o -MF CMakeFiles/cnn_lib.dir/verifier.cpp.o.d -o CMakeFiles/cnn_lib.dir/verifier.cpp.o -c /home/grads/r/realjw/ZKP/zkCNN/src/verifier.cpp
 
 src/CMakeFiles/cnn_lib.dir/verifier.cpp.i: cmake_force
@@ -170,6 +184,7 @@ src/CMakeFiles/cnn_lib.dir/verifier.cpp.s: cmake_force
 # Object files for target cnn_lib
 cnn_lib_OBJECTS = \
 "CMakeFiles/cnn_lib.dir/circuit.cpp.o" \
+"CMakeFiles/cnn_lib.dir/communication.cpp.o" \
 "CMakeFiles/cnn_lib.dir/models.cpp.o" \
 "CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o" \
 "CMakeFiles/cnn_lib.dir/polynomial.cpp.o" \
@@ -181,6 +196,7 @@ cnn_lib_OBJECTS = \
 cnn_lib_EXTERNAL_OBJECTS =
 
 src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/circuit.cpp.o
+src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/communication.cpp.o
 src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/models.cpp.o
 src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/neuralNetwork.cpp.o
 src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/polynomial.cpp.o
@@ -189,7 +205,7 @@ src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/utils.cpp.o
 src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/verifier.cpp.o
 src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/build.make
 src/libcnn_lib.a: src/CMakeFiles/cnn_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcnn_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libcnn_lib.a"
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && $(CMAKE_COMMAND) -P CMakeFiles/cnn_lib.dir/cmake_clean_target.cmake
 	cd /home/grads/r/realjw/ZKP/zkCNN/cmake-build-release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cnn_lib.dir/link.txt --verbose=$(VERBOSE)
 
