@@ -64,7 +64,8 @@ Typically this is a file to record scale and zero-point for the data in each lay
 ### Clone the repo
 To run the code, make sure you clone with
 ``` bash
-git clone --recurse-submodules git@github.com:TAMUCrypto/zkCNN.git
+git clone --recurse-submodules git@github.com:Real-JW/zkCNN.git
+# git clone --recurse-submodules git@github.com:TAMUCrypto/zkCNN.git
 ```
 since the polynomial commitment is included as a submodule.
 
